@@ -9,9 +9,21 @@ const cost = document.querySelector(".cost");
 const areAllFilled = () => {
 	if (price.value !== "" && people.value !== "" && tip.value !== "1") {
 		error.style.visibility = "hidden";
+		count();
 	} else {
 		error.style.visibility = "visible";
+		costInfo.style.visibility = "hidden";
 	}
+};
+
+const count = () => {
+	const enteredPrice = +price.value;
+	const enteredPeople = +people.value;
+	const enteredTip = +tip.value;
+
+	const sum = (enteredPrice + enteredPrice * enteredTip) / enteredPeople;
+	costInfo.style.visibility = "visible";
+	cost.textContent = sum.toFixed(2);
 };
 
 countButton.addEventListener("click", areAllFilled);
