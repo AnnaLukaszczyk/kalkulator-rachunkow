@@ -5,12 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kalkulator rachunków</title>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Dancing+Script:wght@400..700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
+    <div class="wrapper">
+        <div class="top">
+            <h1 class="title">Kalkulator rachunków</h1>
+            <p>Podziel rachunek między uczestników tego wyjścia</p>
+        </div>
+        <div class="bottom">
+            <label for="price">Kwota do zapłaty:</label>
+            <input id="price" type="number">
+            <label for="people">Ilość osób:</label>
+            <input id="people" type="number">
+            <label for="tip">Napiwek:</label>
+            <select id="tip">
+                <option value="1" disabled selected>wybierz napiwek</option>
+                <option value="0">0%</option>
+                <option value="0.05">5%</option>
+                <option value="0.1">10%</option>
+                <option value="0.15">15%</option>
+                <option value="0.2">20%</option>
+            </select>
 
+            <button class="count">Oblicz</button>
+            <p class="error"></p>
+            <p class="cost-info">Powinniście się złożyć po <span class="cost"></span>zł! 😎</p>
+        </div>
+    </div>
 
     <script src="./script.js"></script>
 </body>
