@@ -35,3 +35,59 @@ body {
 	font-family: "Dancing Script", cursive;
 	font-size: 52px;
 }
+
+.bottom {
+	padding: 40px;
+}
+
+.label {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+
+.enter-info {
+	margin-bottom: 20px;
+	padding: 10px 20px;
+	width: 100%;
+	border-radius: 6px;
+	border: 1px solid gray;
+}
+
+.count {
+	display: block;
+	margin: 16px auto;
+	padding: 10px 20px;
+	width: 60%;
+	font-size: 20px;
+	letter-spacing: 1px;
+	border-radius: 6px;
+	border: none;
+	background-color: rgb(6, 149, 149);
+	color: aliceblue;
+	cursor: pointer;
+	transition: background-color .5s;
+}
+
+.count:hover {
+	background-color: rgb(9, 128, 128);
+}
+
+.cost-info {
+	visibility: hidden;
+	text-align: center;
+	margin-top: 30px;
+	font-size: 18px;
+}
+
+.cost {
+	font-weight: bold;
+}
+
+.error {
+	visibility: hidden;
+	height: 18px;
+	color: rgb(237, 70, 70);
+	text-align: center;
+	font-size: 18px;
+}
