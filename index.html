@@ -18,12 +18,12 @@
             <p>Podziel rachunek między uczestników tego wyjścia</p>
         </div>
         <div class="bottom">
-            <label for="price">Kwota do zapłaty:</label>
-            <input id="price" type="number">
-            <label for="people">Ilość osób:</label>
-            <input id="people" type="number">
-            <label for="tip">Napiwek:</label>
-            <select id="tip">
+            <label for="price" class="label">Kwota do zapłaty:</label>
+            <input id="price" type="number" class="enter-info">
+            <label for="people" class="label">Ilość osób:</label>
+            <input id="people" type="number" class="enter-info">
+            <label for="tip" class="label">Napiwek:</label>
+            <select id="tip" class="enter-info">
                 <option value="1" disabled selected>wybierz napiwek</option>
                 <option value="0">0%</option>
                 <option value="0.05">5%</option>
@@ -32,8 +32,8 @@
                 <option value="0.2">20%</option>
             </select>
 
-            <button class="count">Oblicz</button>
             <p class="error"></p>
+            <button class="count">Oblicz</button>
             <p class="cost-info">Powinniście się złożyć po <span class="cost"></span>zł! 😎</p>
         </div>
     </div>
