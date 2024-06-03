@@ -10,4 +10,28 @@ body {
 	align-items: center;
 	min-height: 100vh;
 	font-family: "Lato", sans-serif;
+	background-color: rgb(230, 230, 230);
+}
+
+.wrapper {
+	width: 600px;
+	box-shadow: 0 0 10px gray;
+	border-radius: 15px;
+	overflow: hidden;
+}
+
+.top {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 200px;
+	color: aliceblue;
+	background-color: rgb(6, 149, 149);
+}
+
+.title {
+	padding-bottom: 10px;
+	font-family: "Dancing Script", cursive;
+	font-size: 52px;
 }
