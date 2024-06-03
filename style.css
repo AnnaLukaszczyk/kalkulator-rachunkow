@@ -86,7 +86,6 @@ body {
 
 .error {
 	visibility: hidden;
-	height: 18px;
 	color: rgb(237, 70, 70);
 	text-align: center;
 	font-size: 18px;
