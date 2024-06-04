@@ -93,3 +93,10 @@ body {
 	text-align: center;
 	font-size: 18px;
 }
+
+@media (max-width: 768px) {
+	.wrapper {
+		margin: 50px;
+		max-width: 600px;
+	}	
+}
