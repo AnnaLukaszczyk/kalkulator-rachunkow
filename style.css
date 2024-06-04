@@ -100,3 +100,32 @@ body {
 		max-width: 600px;
 	}	
 }
+
+@media (max-width: 576px) {
+	.title {
+		padding: 10px;
+		font-size: 42px;
+	}
+
+	.description {
+		padding: 10px;
+		font-size: 14px;
+	}
+
+	.label {
+		font-size: 16px;
+	}
+	
+	.error {
+		font-size: 16px;
+	}
+
+	.cost-info {
+		font-size: 16px;
+	}
+
+	.button {
+		font-size: 16px;
+		font-weight: bold;
+	}
+}
