@@ -129,3 +129,77 @@ body {
 		font-weight: bold;
 	}
 }
+
+@media (max-width: 468px) {
+	.wrapper {
+		margin: 30px;
+	}
+
+	.top {
+		height: 180px;
+	}
+
+	.title {
+		font-size: 36px;
+	}
+
+	.description {
+		padding: 0 10px;
+		font-size: 14px;
+	}
+
+	.label {
+		font-size: 14px;
+	}
+	
+	.error {
+		font-size: 14px;
+	}
+
+	.cost-info {
+		font-size: 14px;
+	}
+
+	.button {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 414px) {
+	.wrapper {
+		margin: 20px;
+	}
+
+	.top {
+		height: 120px;
+	}
+
+	.title {
+		font-size: 28px;
+	}
+
+	.description {
+		font-size: 12px;
+		text-align: center;
+	}
+
+	.bottom {
+		padding: 20px;
+	}
+
+	.label {
+		font-size: 12px;
+	}
+	
+	.error {
+		font-size: 12px;
+	}
+
+	.cost-info {
+		font-size: 12px;
+	}
+
+	.button {
+		font-size: 12px;
+	}
+}
