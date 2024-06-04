@@ -2,6 +2,7 @@ const price = document.querySelector("#price");
 const people = document.querySelector("#people");
 const tip = document.querySelector("#tip");
 const countButton = document.querySelector(".count");
+const clearButton = document.querySelector(".clear");
 const error = document.querySelector(".error");
 const costInfo = document.querySelector(".cost-info");
 const cost = document.querySelector(".cost");
@@ -26,4 +27,13 @@ const count = () => {
 	cost.textContent = sum.toFixed(2);
 };
 
+const clearAllFilled = () => {
+	price.value = "";
+	people.value = "";
+	tip.value = "1";
+	error.style.visibility = "hidden";
+	costInfo.style.visibility = "hidden";
+};
+
 countButton.addEventListener("click", areAllFilled);
+clearButton.addEventListener("click", clearAllFilled);
